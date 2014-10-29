@@ -9,8 +9,8 @@ class GameObject
   end
 end
 
-require_relative '../../misc/axis_aligned_bounding_box'
-require_relative '../../misc/quad_tree'
+require_relative '../../lib/misc/axis_aligned_bounding_box'
+require_relative '../../lib/misc/quad_tree'
 
 describe QuadTree do
   let(:box) { AxisAlignedBoundingBox.new(

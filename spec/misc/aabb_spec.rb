@@ -1,4 +1,4 @@
-require_relative '../../misc/axis_aligned_bounding_box'
+require_relative '../../lib/misc/axis_aligned_bounding_box'
 describe AxisAlignedBoundingBox do
 
   let(:center) { [5, 5] }
