@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = "tank_island"
-  spec.version       = '1.0.0'
+  spec.version       = '1.0.1'
   spec.authors       = ["Tomas Varaneckas"]
   spec.email         = ["tomas.varaneckas@gmail.com"]
   spec.summary       = %q{Top down 2D shooter game that involves blowing up tanks}
