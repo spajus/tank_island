@@ -1,31 +1,39 @@
-# TankIsland
+# Tank Island
 
-TODO: Write a gem description
+Tank Island is an open source 2D top down shooter game that was written in Ruby using
+[Gosu](http://www.libgosu.org) game development library.
+
+## Screenshots
+
+![Tank Island Game](https://dl.dropboxusercontent.com/u/176100/tank_island/screen1.png)
+
+![Tank Island Game](https://dl.dropboxusercontent.com/u/176100/tank_island/screen2.png)
+
+## Book: Developing Games With Ruby
+
+Complete process of building this game is described step by step in a free to read ebook:
+[Developing Games With Ruby](https://leanpub.com/developing-games-with-ruby/read)
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'tank_island'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
+To install it, run
 
     $ gem install tank_island
 
-## Usage
+On Mac OSX you will have to `brew install imagemagick` to make it work.
 
-TODO: Write usage instructions here
+## Starting the game
 
-## Contributing
+There are several ways to start the game.
 
-1. Fork it ( https://github.com/[my-github-username]/tank_island/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+### Running in 800x600 window mode
+
+    $ tank_island
+
+### Running with custom resolution
+
+    $ w=1600 h=1200 tank_island
+
+### Running full screen with custom resolution
+
+    $ fs=1 w=1200 h=800 tank_island
