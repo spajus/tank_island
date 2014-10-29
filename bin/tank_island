@@ -4,7 +4,8 @@ require 'gosu'
 require 'gosu_texture_packer'
 require 'perlin_noise'
 
-root_dir = File.expand_path(File.join(File.dirname(File.dirname(__FILE__)), 'lib'))
+root_dir = File.expand_path(File.join(
+  File.dirname(File.dirname(__FILE__)), 'lib'))
 require_pattern = File.join(root_dir, '**/*.rb')
 @failed = []
 
