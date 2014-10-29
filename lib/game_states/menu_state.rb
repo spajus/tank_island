@@ -5,7 +5,7 @@ class MenuState < GameState
 
   def initialize
     @message = Gosu::Image.from_text(
-      $window, "Tanks Prototype",
+      $window, "Tank Island",
       Utils.title_font, 60)
   end
 

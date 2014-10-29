@@ -110,7 +110,7 @@ class PlayState < GameState
   def update_caption
     now = Gosu.milliseconds
     if now - (@caption_updated_at || 0) > 1000
-      $window.caption = 'Tanks Prototype. ' <<
+      $window.caption = 'Tank Island. ' <<
         "[FPS: #{Gosu.fps}. " <<
         "Tank @ #{@tank.x.round}:#{@tank.y.round}]"
       @caption_updated_at = now
