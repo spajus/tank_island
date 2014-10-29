@@ -9,19 +9,19 @@ root_dir = File.expand_path(File.join(
 require_pattern = File.join(root_dir, '**/*.rb')
 @failed = []
 
-# Dynamically require everything
-Dir.glob(require_pattern).each do |f|
-  begin
-    require f
-  rescue
-    # May fail if parent class not required yet
-    @failed << f
-  end
+%w(
+  game_states/game_state.rb
+  game_states/play_state.rb
+  entities/components/component.rb
+  entities/components/ai/tank_motion_state.rb
+  entities/game_object.rb
+  entities/powerups/powerup.rb
+).each do |f|
+  require File.join(root_dir, f)
 end
 
-# Retry unresolved requires
-@failed.each do |f|
-  require f.gsub("#{root_dir}/", '')
+Dir.glob(require_pattern).each do |f|
+  require f
 end
 
 $debug = false
