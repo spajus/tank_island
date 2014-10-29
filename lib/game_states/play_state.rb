@@ -59,9 +59,6 @@ class PlayState < GameState
     if id == Gosu::KbF2
       toggle_profiling
     end
-    if id == Gosu::KbF3
-      puts @tank
-    end
     if id == Gosu::KbR
       @tank.mark_for_removal
       @tank = Tank.new(@object_pool,
@@ -76,7 +73,6 @@ class PlayState < GameState
     if @profiling_now
       toggle_profiling
     end
-    puts "Pool: #{@object_pool.size}"
     @hud.active = false
   end
 
