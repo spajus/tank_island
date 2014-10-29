@@ -1,7 +1,8 @@
 # Tank Island
 
-Tank Island is an open source 2D top down shooter game that was written in Ruby using
-[Gosu](http://www.libgosu.org) game development library.
+Tank Island is an open source 2D top down shooter game that was created with Ruby using
+[Gosu](http://www.libgosu.org) game development library while writing
+[this book](https://leanpub.com/developing-games-with-ruby/read).
 
 ## Screenshots
 
@@ -9,9 +10,12 @@ Tank Island is an open source 2D top down shooter game that was written in Ruby 
 
 ![Tank Island Game](https://dl.dropboxusercontent.com/u/176100/tank_island/screen2.png)
 
+[Gameplay video on YouTube](https://www.youtube.com/watch?v=PpbnCUBrXXU)
+
 ## Book: Developing Games With Ruby
 
-Complete process of building this game is described step by step in a free to read ebook:
+Complete process of building this game is described step by step in this free to read book:
+
 [Developing Games With Ruby](https://leanpub.com/developing-games-with-ruby/read)
 
 ## Installation
@@ -37,3 +41,18 @@ There are several ways to start the game.
 ### Running full screen with custom resolution
 
     $ fs=1 w=1200 h=800 tank_island
+
+## Controls
+
+### Gameplay
+
+- `W` `A` `S` `D` moves your tank.
+- Mouse `left click` shoots.
+- `ESC` goes into menu and away from it.
+
+### Debugging
+
+- `R` respawns your tank.
+- `T` spawns an enemy tank under mouse cursor.
+- `F1` enters debug mode.
+- `F2` toggles profiling
