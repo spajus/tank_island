@@ -20,11 +20,17 @@ Complete process of building this game is described step by step in this free to
 
 ## Installation
 
+Before installing, make sure you have:
+
+- Ruby installed, preferably through [rbenv](https://github.com/sstephenson/rbenv), not rvm.
+- ImageMagick (`gem install rmagick` should work).
+- Gosu prerequisites for [Mac](https://github.com/jlnr/gosu/wiki/Getting-Started-on-OS-X),
+    [Linux](https://github.com/jlnr/gosu/wiki/Getting-Started-on-Linux) or
+    [Windows](https://github.com/jlnr/gosu/wiki/Getting-Started-on-Windows)
+
 To install it, run
 
     $ gem install tank_island
-
-On Mac OSX you will have to `brew install imagemagick` to make it work.
 
 ## Starting the game
 
