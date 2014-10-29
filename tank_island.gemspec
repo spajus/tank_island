@@ -7,9 +7,12 @@ Gem::Specification.new do |spec|
   spec.version       = '1.0.0'
   spec.authors       = ["Tomas Varaneckas"]
   spec.email         = ["tomas.varaneckas@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = %q{Top down 2D shooter game that involves blowing up tanks}
+  spec.description   = <<-EOS
+    This is a game built with Gosu library while writing "Developing Games With Ruby" book.
+    You can get the book at https://leanpub.com/developing-games-with-ruby
+  EOS
+  spec.homepage      = "https://leanpub.com/developing-games-with-ruby"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
