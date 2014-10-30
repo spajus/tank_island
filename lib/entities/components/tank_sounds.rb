@@ -33,7 +33,7 @@ class TankSounds < Component
 
   def driving_sound
     @@driving_sound ||= StereoSample.new(
-      $window, Utils.media_path('tank_driving.mp3'))
+      $window, Utils.media_path('tank_driving.ogg'))
   end
 
   def crash_sound

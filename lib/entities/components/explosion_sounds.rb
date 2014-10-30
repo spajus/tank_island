@@ -9,7 +9,7 @@ class ExplosionSounds
 
     def sound
       @@sound ||= StereoSample.new(
-        $window, Utils.media_path('explosion.mp3'))
+        $window, Utils.media_path('explosion.ogg'))
     end
   end
 end

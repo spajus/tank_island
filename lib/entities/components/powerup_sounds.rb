@@ -9,7 +9,7 @@ class PowerupSounds
 
     def sound
       @@sound ||= StereoSample.new(
-        $window, Utils.media_path('powerup.mp3'))
+        $window, Utils.media_path('powerup.ogg'))
     end
   end
 end

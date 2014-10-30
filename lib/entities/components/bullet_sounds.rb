@@ -9,7 +9,7 @@ class BulletSounds
 
     def sound
       @@sound ||= StereoSample.new(
-        $window, Utils.media_path('fire.mp3'))
+        $window, Utils.media_path('fire.ogg'))
     end
   end
 end
