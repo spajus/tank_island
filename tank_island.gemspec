@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = "tank_island"
-  spec.version       = '1.0.2'
+  spec.version       = '1.0.3'
   spec.authors       = ["Tomas Varaneckas"]
   spec.email         = ["tomas.varaneckas@gmail.com"]
   spec.summary       = %q{Top down 2D shooter game that involves blowing up tanks}
@@ -24,6 +24,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rake", "~> 10.0"
 
   spec.add_runtime_dependency 'gosu'
+  spec.add_runtime_dependency 'rmagick'
   spec.add_runtime_dependency 'gosu_texture_packer'
   spec.add_runtime_dependency 'perlin_noise'
 end
