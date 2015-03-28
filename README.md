@@ -10,7 +10,7 @@ Tank Island is an open source 2D top down shooter game that was created with Rub
 
 ![Tank Island Game](https://dl.dropboxusercontent.com/u/176100/tank_island/screen2.png)
 
-[Gameplay video on YouTube](https://www.youtube.com/watch?v=PpbnCUBrXXU)
+[Gameplay video on YouTube](http://youtu.be/c2M_zJ9KcS8)
 
 ## Book: Developing Games With Ruby
 
