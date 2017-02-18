@@ -6,7 +6,9 @@ Tank Island is an open source 2D top down shooter game that was created with Rub
 
 ## Are you a game developer?
 
-I am building an online community portal for indie game developers. You can list your own projects in there, for free: [Game Hero](https://www.gamehero.org)
+I am building an online community portal for indie game developers. 
+
+You can list your own projects in there, for free: [Game Hero](https://www.gamehero.org)
 
 ## Screenshots
 
