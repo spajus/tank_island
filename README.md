@@ -12,9 +12,9 @@ You can list your own projects in there, for free: [Game Hero](https://www.gameh
 
 ## Screenshots
 
-![Tank Island Game](https://dl.dropboxusercontent.com/u/176100/tank_island/screen1.png)
+![Tank Island Game](https://leanpub.com/site_images/developing-games-with-ruby/50-hud.png)
 
-![Tank Island Game](https://dl.dropboxusercontent.com/u/176100/tank_island/screen2.png)
+![Tank Island Game](https://leanpub.com/site_images/developing-games-with-ruby/54-visual-debugging.png)
 
 [Gameplay video on YouTube](http://youtu.be/c2M_zJ9KcS8)
 
