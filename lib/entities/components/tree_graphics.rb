@@ -63,7 +63,7 @@ class TreeGraphics < Component
   end
 
   def trees
-    @@trees ||= Gosu::TexturePacker.load_json($window,
+    @@trees ||= Gosu::TexturePacker.load_json(
       Utils.media_path('trees_packed.json'))
   end
 end

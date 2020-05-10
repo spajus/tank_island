@@ -5,8 +5,10 @@ class MenuState < GameState
 
   def initialize
     @message = Gosu::Image.from_text(
-      $window, "Tank Island",
-      Utils.title_font, 60)
+        "Tank Island",
+        60,
+        font: Utils.title_font
+      )
   end
 
   def enter
@@ -21,15 +23,15 @@ class MenuState < GameState
 
   def music
     @@music ||= Gosu::Song.new(
-      $window, Utils.media_path('menu_music.ogg'))
+      Utils.media_path('menu_music.ogg'))
   end
 
   def update
     text = "Q: Quit\nN: New Game\nD: Demo"
     text << "\nC: Continue" if @play_state
     @info = Gosu::Image.from_text(
-      $window, text,
-      Utils.main_font, 30)
+      text,
+      30, options = {font: Utils.main_font})
   end
 
   def draw

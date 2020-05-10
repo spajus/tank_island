@@ -13,8 +13,9 @@ class DamageGraphics < Component
 
   def images
     @@images ||= (1..4).map do |i|
-      Gosu::Image.new($window,
-        Utils.media_path("damage#{i}.png"), false)
+      Gosu::Image.new(
+        Utils.media_path("damage#{i}.png"), false
+        )
     end
   end
 end

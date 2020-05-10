@@ -41,6 +41,6 @@ class TankGraphics < Component
 
   def units
     @@units = Gosu::TexturePacker.load_json(
-      $window, Utils.media_path('ground_units.json'), :precise)
+      Utils.media_path('ground_units.json'), :precise)
   end
 end
