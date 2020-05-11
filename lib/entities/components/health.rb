@@ -66,8 +66,8 @@ class Health < Component
       text = @health.to_s
       font_size = 18
       @image = Gosu::Image.from_text(
-          $window, text,
-          Gosu.default_font_name, font_size)
+          text,
+          font_size, font: Gosu.default_font_name)
       @health_updated = false
     end
   end

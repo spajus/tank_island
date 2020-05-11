@@ -108,6 +108,6 @@ class Camera
 
   def crosshair
     @crosshair ||= Gosu::Image.new(
-      $window, Utils.media_path('c_dot.png'), false)
+      Utils.media_path('c_dot.png'), false)
   end
 end

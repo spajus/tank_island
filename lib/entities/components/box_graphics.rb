@@ -33,7 +33,7 @@ class BoxGraphics < Component
   end
 
   def boxes
-    @@boxes ||= Gosu::TexturePacker.load_json($window,
+    @@boxes ||= Gosu::TexturePacker.load_json(
       Utils.media_path('boxes_barrels.json'))
   end
 end

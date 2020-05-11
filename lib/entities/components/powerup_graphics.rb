@@ -17,6 +17,6 @@ class PowerupGraphics < Component
 
   def images
     @@images ||= Gosu::TexturePacker.load_json(
-      $window, Utils.media_path('pickups.json'))
+      Utils.media_path('pickups.json'))
   end
 end
