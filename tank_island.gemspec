@@ -23,7 +23,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.6"
   spec.add_development_dependency "rake", "~> 10.0"
 
-  spec.add_runtime_dependency 'gosu'
+  spec.add_runtime_dependency 'gosu', "~> 0.15.2"
   spec.add_runtime_dependency 'rmagick'
   spec.add_runtime_dependency 'gosu_texture_packer'
   spec.add_runtime_dependency 'perlin_noise'
