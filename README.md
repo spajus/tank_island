@@ -4,12 +4,6 @@ Tank Island is an open source 2D top down shooter game that was created with Rub
 [Gosu](http://www.libgosu.org) game development library while writing
 [this book](https://leanpub.com/developing-games-with-ruby/).
 
-## Are you a game developer?
-
-I am building an online community portal for indie game developers. 
-
-You can list your own projects in there, for free: [Game Hero](https://www.gamehero.org)
-
 ## Screenshots
 
 ![Tank Island Game](https://leanpub.com/site_images/developing-games-with-ruby/50-hud.png)
